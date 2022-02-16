@@ -22,7 +22,7 @@ addCardForm.style.display="none"
 
  //add
  //sample data
-let sampledata=['Sample question','sample answer 1','sample ans 2','sample ans 3','sample ans 4','correct ans']
+let sampledata=['Sample question','correct answer','sample ans 2','sample ans 3','sample ans 4','1']
 localStorage.setItem(1,JSON.stringify(sampledata))
 
 

@@ -5,11 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/home.css" type="text/css">
 </head>
 <body>
+    <!-- header -->
    <div class="header">
        <span class="header-title">WELCOME TO QUIZ</span>
        <span class="on-call"><i class="bi-emoji-smile-fill"></i> QUIZ</span>
    </div> 
+   <!-- main -->
+   <div class="main">
+       <div class="question-container" id="quiz">
+           <div class="quiz-header">
+           <h2 id="question">Question</h2>
+           <ul>
+               <li>
+                   <input type="radio" name="answer" id="1" class="answer">
+                   <label for="1" id="option_a_text">option a</label>
+               </li>
+               <li>
+                <input type="radio" name="answer" id="2" class="answer">
+                <label for="2" id="option_b_text">option b</label>
+                </li>
+                <li>
+                <input type="radio" name="answer" id="3" class="answer">
+                <label for="3" id="option_c_text">option c</label>
+                </li>
+                <li>
+                <input type="radio" name="answer" id="4" class="answer">
+                <label for="4" id="option_d_text">option d</label>
+                </li>
+           </ul>
+        </div>
+           <button type="submit" id="Submit">Submit</button>
+           
+
+       </div>
+   </div>
 </body>
+<script src="home.js"></script>
 </html>
